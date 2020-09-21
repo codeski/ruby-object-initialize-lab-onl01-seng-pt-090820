@@ -4,7 +4,7 @@ class Person
     @name = name
   end
   
-  attr_accessible :name
+  attr_accessor :name
   
   # def name=(name)
   #   @name = name
